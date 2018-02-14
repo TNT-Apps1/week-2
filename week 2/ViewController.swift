@@ -21,20 +21,20 @@ class ViewController: UIViewController {
     
     
     
-    //left button > lable hello
+    //left button > label hello
     @IBAction func button1(_ sender: UIButton) {
         greetingText.text = "Hello"
         greetingText.backgroundColor = UIColor .blue;
         
     }
     
-    //right button > lable goodbye
+    //right button > label goodbye
     @IBAction func button2(_ sender: UIButton) {
         greetingText.text = "Goodbye"
         greetingText.backgroundColor = UIColor .red;
     }
     
-    //touch anywhere else on the screen > lable default
+    //touch anywhere else on the screen > label default
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         greetingText.text = "What is your status?"
         greetingText.backgroundColor = UIColor .green;    }
